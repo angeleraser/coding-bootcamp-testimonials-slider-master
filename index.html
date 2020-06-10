@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/reset.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+</head>
+
+<body>
+  <article class="card-content-wrapper">
+    <section class="card-item-content-wrapper">
+      <!-- Person img  -->
+      <div id="person-image" class="card__img"></div>
+      <!-- Background svg  -->
+      <img src="./images/pattern-bg.svg" alt="" class="image-bg">
+      <!-- Buttons  -->
+      <div class="buttons-content-wrapper">
+        <button aria-label="button-prev" class="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18">
+            <path fill="none" stroke="#8585AC" stroke-width="3" d="M11 1L3 9l8 8" /></svg>
+        </button>
+        <button aria-label="button-next" class="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="18">
+            <path fill="none" stroke="#8585AC" stroke-width="3" d="M2 1l8 8-8 8" /></svg>
+        </button>
+      </div>
+    </section>
+    <section class="card-item-content-wrapper">
+      <!-- Info  -->
+      <div class="card__data-content">
+        <p id="person-message" class="card__data-content__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, iusto? Nesciunt blanditiis vel dicta
+          officia
+          amet eligendi commodi id enim, sunt ipsum deserunt quas ipsam! Voluptates consectetur aspernatur unde dicta.
+        </p>
+        <div class="name-ocupation-content-wrapper">
+          <h1 id="person-name" class="card__data-content__person-name">Lorem ipsum</h1>
+          <h2 id="person-ocupation" class="card__data-content__person-ocupation">
+            lorem ipsum dolor
+          </h2>
+        </div>
+      </div>
+      <img src="./images/pattern-quotes.svg" alt="quotes image" class="quotes-img">
+    </section>
+    <img src="./images/pattern-curve.svg" alt="curve img" class="curve-img">
+  </article>
+  <script src="script.js"></script>
+</body>
+
+</html>
